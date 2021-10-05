@@ -36,10 +36,12 @@ int main (void) {
     // what's the issue with accessing the array[5]
     // 0.... n - 1
     // printf("%d", numbers[5]);
+    // try gcc -o arrays arrays.c --> won't throw an error which is BAD
 
     return 0;
 }
 
+// Printing the elements of an array
 void print_array(int numbers[], int length) {
 
     int j = 0;
@@ -49,25 +51,6 @@ void print_array(int numbers[], int length) {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* THINGS TO KEEP NOTE OF
  * Declaring variable type

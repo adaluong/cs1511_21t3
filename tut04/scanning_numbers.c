@@ -1,4 +1,4 @@
-// COMP1511 Tut04 25/26 - scanf and arrays
+// COMP1511 Tut04 - scanf and arrays
 // Ada Luong, June 2021
 
 // Creating a loop that would continually read values in from standard input 

@@ -1,5 +1,5 @@
-// COMP1511 Tut04 Q22 - pass by reference arrays
-// Ada Luong, June 2021
+// COMP1511 Tut04 - pass by reference arrays
+// Ada Luong, October 2021
 
 // What will this code print before and after the function 
 // is called? Is the output expected?
@@ -15,7 +15,7 @@ int main(void) {
 
     int index;
     printf("Enter index to change: ");
-    scanf("%d", &index); // 0
+    scanf("%d", &index);
 
     printf("Before function: %d\n", array[index]);
     change_array_element(array, index);

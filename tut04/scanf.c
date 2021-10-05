@@ -1,4 +1,4 @@
-// COMP1511 Tut04 Q25 - demonstrating the return value of scanf
+// COMP1511 Tut04 - demonstrating the return value of scanf
 // Ada Luong, June 2021
 
 #include <stdio.h>
